@@ -2,7 +2,6 @@ from fabric.contrib.files import append, exists, sed
 from fabric.api import env, local, run
 import random
 
-#REPO_URL = 'git@github.com:joshsmith2/superlists.git'
 REPO_URL = 'https://github.com/joshsmith2/superlists.git'
 
 def deploy():
