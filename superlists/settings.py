@@ -20,11 +20,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '73a*k59+yy#d*a5%_+!qwp@cks*$%@p7==3*had=v2kl6*99ld'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-TEMPLATE_DEBUG = DEBUG
+TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['staging.superlists.lessstatic.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
